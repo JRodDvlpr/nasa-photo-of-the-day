@@ -2,6 +2,16 @@ import React from "react";
 import "./App.css";
 
 function App() {
+
+  const fetchPics = () => {
+    axios
+      .get(`https://api.nasa.gov/planetary/apod?api_key=DEMO_KEY`)
+      .then(nasa => {
+        console.log(nasa);
+        setNasa(nasa.data);
+      })
+      .catch(err => console.log("OUCH :("));
+  };
   return (
     <div className="App">
       <p>
