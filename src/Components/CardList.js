@@ -18,9 +18,11 @@ export default function CardList () {
        console.log("I am not sure what happened but hey, it happened.");
     });
 
+
   },[]);
   console.log(nasa);
 
+  // creating classes for the data ill be using
   return (
     <div className="space">
     {
@@ -37,3 +39,5 @@ export default function CardList () {
 }
 
 // useEffect(() =>{},[]);
+
+

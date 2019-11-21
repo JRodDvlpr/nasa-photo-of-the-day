@@ -1,29 +1,25 @@
 // Nasa Card 
-
 import React from "react";
-import styled from "styled-components";
+import {
+  Card, CardImg, CardText, CardBody,
+  CardTitle, CardSubtitle
+} from 'reactstrap';
 
 
-const Container = styled.div`
-    max-width: 650px;
-
-`;
-
-
+// "HTML stlye" format that will append the data from the API
 const NasaCard = ({hdurl, title, text, date}) => {
   return (
     
-    <Container>
-        <div>
-            <img className="space-img" src={hdurl} alt="spacephoto"/>
-        </div>
-        <h1 className="nasa-Head">Nasa Photo Of The Day</h1>
-        <h2>{title}</h2>
-        <p>{text}</p>
-        <p>{date}</p>
-     
-    </Container>
-    
+    <div className="space-Container">
+      <Card>
+        <CardImg src={hdurl} alt="spacePhoto"/>
+        <CardBody>
+          <CardTitle>{title}</CardTitle>
+            <CardSubtitle>{date}</CardSubtitle>
+          <CardText>{text}</CardText>
+        </CardBody>
+      </Card>
+    </div>
   );
 };
 export default NasaCard;
