@@ -15,8 +15,8 @@ export default function CardList () {
     })
     .catch(error => {
       // catch error
-       console.log(error);
-     });
+       console.log("I am not sure what happened but hey, it happened.");
+    });
 
   },[]);
   console.log(nasa);
@@ -26,7 +26,7 @@ export default function CardList () {
     {
       <NasaCard
         date={nasa.date}
-        explanation={nasa.explanation}
+        text={nasa.explanation}
         hdurl={nasa.hdurl}
         title={nasa.title}
       />

@@ -10,22 +10,20 @@ const Container = styled.div`
 `;
 
 
-
-
-const NasaCard = ({hdurl, title, explanation, date}) => {
+const NasaCard = ({hdurl, title, text, date}) => {
   return (
-    <div>
-        <Container>
+    
+    <Container>
         <div>
             <img className="space-img" src={hdurl} alt="spacephoto"/>
         </div>
         <h1 className="nasa-Head">Nasa Photo Of The Day</h1>
         <h2>{title}</h2>
-        <p>{explanation}</p>
+        <p>{text}</p>
         <p>{date}</p>
      
     </Container>
-    </div>
+    
   );
 };
 export default NasaCard;
