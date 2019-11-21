@@ -1,18 +1,30 @@
 // Nasa Card 
 
 import React from "react";
+import styled from "styled-components";
 
 
-const NasaCard = props => {
+const Container = styled.div`
+    max-width: 650px;
+
+`;
+
+
+
+
+const NasaCard = ({hdurl, title, explanation, date}) => {
   return (
     <div>
-        <div className="nasa-Container">
-        <img src={props.hdurl} alt="Space-img" />
-        <h2>className="nasa-Head">Nasa Photo Of The Day: {props.title}</h2>
-      <p>{props.explanation}</p>
-      <p>Anything: {props.date}</p>
+        <Container>
+        <div>
+            <img className="space-img" src={hdurl} alt="spacephoto"/>
+        </div>
+        <h1 className="nasa-Head">Nasa Photo Of The Day</h1>
+        <h2>{title}</h2>
+        <p>{explanation}</p>
+        <p>{date}</p>
      
-    </div>
+    </Container>
     </div>
   );
 };

@@ -4,13 +4,13 @@ import axios from "axios";
 import NasaCard from "./NasaCard";
 
 export default function CardList () {
-    const [nasaData, setNasaData] = useState([]);
-
+    const [nasa, setNasa] = useState([]);
+ // useEffect(() =>{},[]);
   useEffect(() => {
     axios.get("https://api.nasa.gov/planetary/apod?api_key=8XudYX3QMcm9qnOwkj3HNR9pkeNd1uQNy1bcxT6j")
     .then(nasa => {
-      console.log(nasa.data);
-      setNasaData(nasa.data);
+      console.log(nasa);
+      setNasa(nasa.data);
 
     })
     .catch(error => {
@@ -18,20 +18,22 @@ export default function CardList () {
        console.log(error);
      });
 
-  }, []);
-  console.log(nasaData);
+  },[]);
+  console.log(nasa);
 
   return (
-    <div className="dataCard">
+    <div className="space">
     {
       <NasaCard
-        date={nasaData.date}
-        explanation={nasaData.explanation}
-        hdurl={nasaData.hdurl}
-        title={nasaData.title}
+        date={nasa.date}
+        explanation={nasa.explanation}
+        hdurl={nasa.hdurl}
+        title={nasa.title}
       />
     }
     
   </div>
   );
 }
+
+// useEffect(() =>{},[]);
