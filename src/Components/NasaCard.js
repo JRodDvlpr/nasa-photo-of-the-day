@@ -13,9 +13,9 @@ const InnerConent = styled.section`
 
 // const Title
 const Image = styled.img`
-  max-width: 70%;
-  height: 35%;
-  margin-left: 70px;
+  width: 40%;
+  height: 15%;
+ 
   
 
 `;
@@ -26,7 +26,7 @@ const Image = styled.img`
 
 // `;
 
-const innerText = styled.section`
+const Inner = styled.section`
   border: 2px solid #fff;
 `;
 
@@ -36,11 +36,11 @@ const NasaCard = ({hdurl, title, text, date}) => {
   return (
     <InnerConent>    
       <Image src={hdurl} />
-      <innerText>
-        <h4>{date}</h4>
+      <Inner>
         <h2>{title}</h2>
+        <h4>{date}</h4>
         <p>{text}</p>
-      </innerText>
+      </Inner>
     </InnerConent>
       
     

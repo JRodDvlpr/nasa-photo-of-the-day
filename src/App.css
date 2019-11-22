@@ -13,6 +13,9 @@
   
 }
 
+h2 {
+  font-family: 'Roboto';
+}
 
 
 .App-link {
@@ -38,9 +41,9 @@ img {
 
 
 p {
-  padding: 30px;
+  padding: 60px;
   text-align: center;
-  font-size: 18px;
+  font-size: 14px;
 }
 
 Container {
