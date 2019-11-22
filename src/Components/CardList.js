@@ -20,6 +20,8 @@ export default function CardList () {
 
 
   },[]);
+
+  // useEffect(() =>{},[]);
   console.log(nasa);
 
   // creating classes for the data ill be using
@@ -32,6 +34,8 @@ export default function CardList () {
         hdurl={nasa.hdurl}
         title={nasa.title}
       />
+
+      
     }
     
   </div>
