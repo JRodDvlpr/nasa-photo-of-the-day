@@ -8,12 +8,14 @@ function App() {
 
   return (
    
-    <div className="App">
+    <section className="App">
       <HeadCard />
+
       <CardList />
-    </div>
+    </section>
 
   );
 }
+
 
 export default App;

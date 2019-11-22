@@ -8,7 +8,7 @@ const SpaceH = styled.div`
   padding-top: 20px;
   text-align: center;
   font-family: 'Planet Kosmos';
-  font-size: 2.2rem;
+  font-size: 3.2rem;
   background: #232526;  
   background: -webkit-linear-gradient(to top, #414345, #232526);  /
   background: linear-gradient(to top, #414345, #232526); 
@@ -19,7 +19,8 @@ const SpaceH = styled.div`
 const HeadCard = () => {
 
     return (
-        <SpaceH>Nasa Photo Of The Day</SpaceH>
+        <SpaceH><h1>Nasa Photo Of The Day</h1></SpaceH>
+        // <div></di
     )
 
 };
