@@ -34,6 +34,7 @@ export default function CardList () {
         text={nasa.explanation}
         hdurl={nasa.hdurl}
         title={nasa.title}
+        copyright={nasa.copyright}
       />
       
       

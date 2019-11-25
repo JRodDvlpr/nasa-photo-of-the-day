@@ -19,7 +19,10 @@ const SpaceH = styled.div`
 const HeadCard = () => {
 
     return (
-        <SpaceH><h1>Nasa Photo Of The Day</h1></SpaceH>
+      
+        <SpaceH>
+          <h1>Nasa Photo Of The Day</h1>
+        </SpaceH>
         // <div></di
     )
 

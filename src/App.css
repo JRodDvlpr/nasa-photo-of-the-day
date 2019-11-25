@@ -35,21 +35,6 @@ section.jumbotron {
   background-color: #000000;
 }
 
-img {
-  max-width: 100%;
-}
-
-
-p {
-  padding: 60px;
-  text-align: center;
-  font-size: 14px;
-}
-
-Container {
- align-content: center; 
-}
-
 
 
 @keyframes App-logo-spin {
