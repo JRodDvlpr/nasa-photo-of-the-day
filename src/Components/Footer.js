@@ -4,9 +4,9 @@ import React from "react";
 import styled from "styled-components";
 
 const Container = styled.div`
-  background: #333333;
-  color: #f3f3f3;
-  height: 13vh;
+  background: #232526;
+  color: #fff;
+  height: 100px;
 `;
 
 const Text = styled.p`

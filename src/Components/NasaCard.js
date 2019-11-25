@@ -13,9 +13,12 @@ const Container = styled.div`
   height: 100%;
   width: 80%;
   margin: auto;
+  margin-top: 10px;
+  margin-bottom: 10px;
   border-radius: 20px;
   padding: 0 20px;
   background: #000000;
+  background-color: #000000;
   color: #333;
   
 `;
@@ -31,9 +34,9 @@ const NasaImg = styled.img`
   padding-top: 60px;
   
 `;
-// //  TEXT STYLE
+// //  Title STYLE
 const Title = styled.h3`
-  font-family: Titillium Web;
+  font-family: 'Abel';
   font-size: 40px;
   text-align: center;
   padding-top: 30px;
@@ -41,8 +44,8 @@ const Title = styled.h3`
   color: #fff;
   border: 2px solid #fff;
   border-radius: 10px;
-  margin-right: 100px;
-  margin-left: 100px;
+  margin-right: 170px;
+  margin-left: 170px;
   
   
 `;
@@ -50,24 +53,24 @@ const Title = styled.h3`
 const NasaAuthor = styled.h4`
   padding: 10px;
   text-align: center;
-  font-family: 'Titillium Web';
+  font-family: 'Abel';
   color: #fff;
 `;
 // Date Style
 const NasaDate = styled.p`
   padding: auto;
   text-align: center;
-  font-family: 'Raleway';
+  font-family: 'Abel';
   color: #fff;
 `;
-// Paragraph Style
+// Text Style
 const NasaText = styled.p`
   margin-left: 100px;
 
   margin-right: 100px;
   padding: 20px;
   text-align: center;
-  font-family: 'Roboto';
+  font-family: 'Abel';
   color: #000000;
   border: 1px solid #fff;
   background-color: #fff;

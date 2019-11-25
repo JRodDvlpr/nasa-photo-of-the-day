@@ -19,7 +19,7 @@ const HeadTitle = styled.h1`
 `;
 
 const SubTitle = styled.h2`
-  font-family: 'Planet Kosmos';
+  font-family: 'Abel';
   font-size: 2.2rem;
 `;
 
