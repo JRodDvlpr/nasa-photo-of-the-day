@@ -25,15 +25,12 @@ h2 {
 
 .space {
   width: 100%;
-  background: #000000;
+  background: rgba(0, 0, 0, 0.9);
   
 
 
 }
 
-section.jumbotron {
-  background-color: #000000;
-}
 
 
 

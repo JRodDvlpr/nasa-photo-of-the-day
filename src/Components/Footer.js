@@ -3,13 +3,13 @@
 import React from "react";
 import styled from "styled-components";
 
-const FooterContainer = styled.div`
+const Container = styled.div`
   background: #333333;
   color: #f3f3f3;
   height: 13vh;
 `;
 
-const FooterPara = styled.p`
+const Text = styled.p`
   text-align: center;
   margin: 0;
   padding-top: 20px;
@@ -17,14 +17,15 @@ const FooterPara = styled.p`
 
 const Footer = () => {
   return (
-    <FooterContainer>
+    <Container>
       <footer>
-        <FooterPara>Page created by Brandon Franks 2019</FooterPara>
-        <FooterPara>
-          NASA logo is a registered trademark of NASA 2019
-        </FooterPara>
+
+        <Text>
+          NASA logo is a registered trademark of NASA 2019 © 
+        </Text>
+        <Text>Page designed by Jesus Rodriguez 2019 © </Text>
       </footer>
-    </FooterContainer>
+    </Container>
   );
 };
 

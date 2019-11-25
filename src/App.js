@@ -2,7 +2,7 @@ import React from "react";
 import "./App.css";
 import CardList from "./Components/CardList";
 import HeadCard from "./Components/HeadCard";
-
+import Footer from "./Components/Footer";
 
 function App() {
 
@@ -10,8 +10,8 @@ function App() {
    
     <section className="App">
       <HeadCard />
-
       <CardList />
+      <Footer />
     </section>
 
   );
