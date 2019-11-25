@@ -1,6 +1,7 @@
 import React from "react";
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css';
+import logo from "../img/Nasa.png"
 
 const SpaceH = styled.div` 
   max-width: 100%;
@@ -13,14 +14,19 @@ const SpaceH = styled.div`
 
 `;
 
-const HeadTitle = styled.h1`
-  font-family: 'Planet Kosmos';
-  font-size: 4.2rem;
-`;
+// const HeadTitle = styled.h1`
+//   font-family: 'Planet Kosmos';
+//   font-size: 4.2rem;
+// `;
 
 const SubTitle = styled.h2`
   font-family: 'Abel';
   font-size: 2.2rem;
+`;
+
+const LogoImg = styled.img`
+  height: 85px;
+  width: auto;
 `;
 
 
@@ -29,7 +35,7 @@ const HeadCard = () => {
     return (
       
         <SpaceH>
-          <HeadTitle>Nasa</HeadTitle>
+          <LogoImg src={logo}></LogoImg>
           <SubTitle>Photo Of The Day</SubTitle>
         </SpaceH>
         

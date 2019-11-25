@@ -30,9 +30,9 @@ const NasaImg = styled.img`
   padding-left: 100px;
   padding-right: 100px;
   align-items: center;
-  border-radius: 30px;
-  padding-top: 60px;
-  
+  padding-top: 30px;
+  margin-bottom: 20px;
+  border-radius: 20px;
 `;
 // //  Title STYLE
 const Title = styled.h3`
@@ -66,15 +66,15 @@ const NasaDate = styled.p`
 // Text Style
 const NasaText = styled.p`
   margin-left: 100px;
-
   margin-right: 100px;
-  padding: 20px;
+  margin-bottom: 40px;
+  padding: 50px;
   text-align: center;
   font-family: 'Abel';
   color: #000000;
   border: 1px solid #fff;
   background-color: #fff;
-  border-radius: 10px;
+  border-radius: 30px;
   
 `;
 
