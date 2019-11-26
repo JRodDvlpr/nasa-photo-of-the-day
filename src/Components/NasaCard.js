@@ -3,6 +3,17 @@ import React from "react";
 import styled from 'styled-components'
 import 'bootstrap/dist/css/bootstrap.min.css';
 
+// breakpoints
+
+const size = {
+  mobileS: '320px',
+  mobileM: '375px',
+  mobileL: '500px',
+  tablet: '768px',
+  laptop: '1024px',
+  laptopL: '1440px',
+  desktop: '2560px'
+}
 
 
 // Container
@@ -21,6 +32,8 @@ const Container = styled.div`
   background-color: #000000;
   color: #333;
   
+
+  
 `;
 
 // Image 
@@ -33,6 +46,9 @@ const NasaImg = styled.img`
   padding-top: 30px;
   margin-bottom: 20px;
   border-radius: 20px;
+
+ 
+
 `;
 // //  Title STYLE
 const Title = styled.h3`
@@ -71,6 +87,7 @@ const NasaText = styled.p`
   padding: 50px;
   text-align: center;
   font-family: 'Abel';
+  font-size: 18px;
   color: #000000;
   border: 1px solid #fff;
   background-color: #fff;
@@ -88,6 +105,7 @@ const NasaCard = ({hdurl, title, text, date, copyright}) => {
       <NasaAuthor>By: {copyright}</NasaAuthor>
       <NasaDate>{date}</NasaDate>
       <NasaText>{text}</NasaText>
+      <p>Page designed by Jesus Rodriguez 2019 ©</p>
   
     </Container>
       

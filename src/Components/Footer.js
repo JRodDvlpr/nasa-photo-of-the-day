@@ -6,7 +6,7 @@ import styled from "styled-components";
 const Container = styled.div`
   background: #232526;
   color: #fff;
-  height: 100px;
+  height: 80px;
 `;
 
 const Text = styled.p`
@@ -21,9 +21,8 @@ const Footer = () => {
       <footer>
 
         <Text>
-          NASA logo is a registered trademark of NASA 2019 © 
+          2019 © NASA. 
         </Text>
-        <Text>Page designed by Jesus Rodriguez 2019 © </Text>
       </footer>
     </Container>
   );
