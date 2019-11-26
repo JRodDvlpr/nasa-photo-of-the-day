@@ -14,13 +14,8 @@ const SpaceH = styled.div`
 
 `;
 
-// const HeadTitle = styled.h1`
-//   font-family: 'Planet Kosmos';
-//   font-size: 4.2rem;
-// `;
-
 const SubTitle = styled.h2`
-  font-family: 'Abel';
+  font-family: 'Oswald';
   font-size: 2.2rem;
 `;
 
@@ -36,7 +31,7 @@ const HeadCard = () => {
       
         <SpaceH>
           <LogoImg src={logo}></LogoImg>
-          <SubTitle>Photo Of The Day</SubTitle>
+          <SubTitle>Photo of The Day ® </SubTitle>
         </SpaceH>
         
     )
