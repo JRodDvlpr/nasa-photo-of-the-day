@@ -3,28 +3,17 @@
 import React from "react";
 import styled from "styled-components";
 
-const Container = styled.div`
-  background: #232526;
-  color: #fff;
-  height: 80px;
-`;
-
-const Text = styled.p`
-  text-align: center;
-  margin: 0;
-  padding-top: 20px;
-`;
 
 const Footer = () => {
   return (
-    <Container>
+    <div className="SpaceH">
       <footer>
 
-        <Text>
-          2019 © NASA. 
-        </Text>
+        <p className='footerT'>
+          2020 © NASA. 
+        </p>
       </footer>
-    </Container>
+    </div>
   );
 };
 

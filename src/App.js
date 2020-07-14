@@ -6,13 +6,15 @@ import Footer from "./Components/Footer";
 
 function App() {
 
+  
+
   return (
    
-    <section className="App">
+    <div className="App">
       <HeadCard />
       <CardList />
       <Footer />
-    </section>
+    </div>
 
   );
 }
