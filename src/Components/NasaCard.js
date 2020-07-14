@@ -2,23 +2,6 @@
 import React from "react";
 
 
-// breakpoints
-
-const size = {
-  mobileS: '320px',
-  mobileM: '375px',
-  mobileL: '500px',
-  tablet: '768px',
-  laptop: '1024px',
-  laptopL: '1440px',
-  desktop: '2560px'
-}
-
-
-// Container
-
-
-
 
 const NasaCard = ({ title, text, date, copyright}) => {
  
